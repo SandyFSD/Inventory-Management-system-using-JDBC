@@ -10,8 +10,8 @@ public class Main {
 
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/newdata";
-    private static final String USER = "root";   
-    private static final String PASS = "root";
+    private static final String USER = "user";   
+    private static final String PASS = "pass";
 
     private Connection connection;
     private Scanner scanner;
@@ -208,4 +208,5 @@ public class Main {
         Main app = new Main();
         app.start();
     }
+
 }
